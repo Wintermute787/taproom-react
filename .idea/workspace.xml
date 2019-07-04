@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5878ad6b-fe17-486e-8eda-48f8b888ae47" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Keg.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../doctorLookup/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../doctorLookup/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../doctorLookup/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../doctorLookup/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../doctorLookup/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../doctorLookup/.idea/workspace.xml" afterDir="false" />
@@ -36,7 +37,6 @@
       <change beforePath="$PROJECT_DIR$/../portfolio/src/index.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio/src/logo.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../romanNumerals" beforeDir="false" afterPath="$PROJECT_DIR$/../romanNumerals" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../trackSelector" beforeDir="false" afterPath="$PROJECT_DIR$/../trackSelector" afterDir="false" />
@@ -65,16 +65,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Hero.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+            <state relative-caret-position="-1133">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/Keg.jsx">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -186,12 +191,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562253229097</updated>
-      <workItem from="1562253231265" duration="6051000" />
+      <workItem from="1562253231265" duration="7398000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6051000" />
+    <option name="totallyTimeSpent" value="7398000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -254,13 +259,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Hero.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+        <state relative-caret-position="-1133">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Keg.jsx">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
