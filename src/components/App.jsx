@@ -14,7 +14,9 @@ function App() {
           <Nav/>
           <Switch>
               <Route exact path='/' component={Hero}/>
+              <Container>
               <Route path='/keglist' component={KegList}/>
+              </Container>
           </Switch>
 
       </div>

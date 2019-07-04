@@ -12,11 +12,17 @@ import Typography from '@material-ui/core/Typography';
 const useStyles = makeStyles({
     card: {
         maxWidth: 345,
+        marginTop: 50
 
     },
     media: {
-        height: 140,
+        height: 250,
+        backgroundSize: "contain"
+
     },
+    position: {
+        top: 40
+    }
 });
 
 function Keg(props) {
@@ -27,7 +33,7 @@ function Keg(props) {
                 <CardMedia
                     className={classes.media}
                     image={props.image}
-                />
+                 />
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="h2">
                         <h2>{props.name}</h2>

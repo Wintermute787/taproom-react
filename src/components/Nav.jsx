@@ -81,10 +81,10 @@ export default function Nav() {
                     <Typography className={classes.title} variant="h6" noWrap component={Link} to='/'>
                         Tapped!
                     </Typography>
-                    <Typography className={classes.title} variant="h6" noWrap component={Link} to='/keglist'>
+                    <Typography className={classes.title} variant="h6" noWrap>
                         <a href='#' className={classes.anchor}>Customers</a>
                     </Typography>
-                    <Typography className={classes.title} variant="h6" noWrap>
+                    <Typography className={classes.title} variant="h6" noWrap component={Link} to='/keglist'>
                         <a href='#' className={classes.anchor}>Employees</a>
                     </Typography>
                     <div className={classes.search}>
