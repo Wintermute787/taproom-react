@@ -18,7 +18,7 @@ var heroBox = {
     minHeight: "100%",
     minWidth: '1024px',
     width: "100%",
-    height: "auto",
+    height: "100%",
     top: "0",
     left: "0",
     position: "absolute",

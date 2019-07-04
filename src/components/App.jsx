@@ -4,6 +4,7 @@ import Hero from "./Hero";
 import KegList from './KegList';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Container from '@material-ui/core/Container';
+import Footer from './Footer'
 
 
 
@@ -18,6 +19,7 @@ function App() {
               <Route path='/keglist' component={KegList}/>
               </Container>
           </Switch>
+
 
       </div>
       </BrowserRouter>
