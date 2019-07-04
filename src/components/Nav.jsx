@@ -7,6 +7,7 @@ import InputBase from '@material-ui/core/InputBase';
 import { fade, makeStyles } from '@material-ui/core/styles';
 import MenuIcon from '@material-ui/icons/Menu';
 import SearchIcon from '@material-ui/icons/Search';
+import { Switch, Route, Link, BrowserRouter } from "react-router-dom";
 
 const useStyles = makeStyles(theme => ({
     root: {
@@ -21,6 +22,8 @@ const useStyles = makeStyles(theme => ({
         [theme.breakpoints.up('sm')]: {
             display: 'block',
         },
+        textDecoration: "none",
+        color: "white"
     },
     search: {
         position: 'relative',
@@ -75,10 +78,10 @@ export default function Nav() {
             <AppBar position="static" color="secondary">
                 <Toolbar>
 
-                    <Typography className={classes.title} variant="h6" noWrap>
+                    <Typography className={classes.title} variant="h6" noWrap component={Link} to='/'>
                         Tapped!
                     </Typography>
-                    <Typography className={classes.title} variant="h6" noWrap>
+                    <Typography className={classes.title} variant="h6" noWrap component={Link} to='/keglist'>
                         <a href='#' className={classes.anchor}>Customers</a>
                     </Typography>
                     <Typography className={classes.title} variant="h6" noWrap>
