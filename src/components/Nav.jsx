@@ -8,6 +8,7 @@ import { fade, makeStyles } from '@material-ui/core/styles';
 import MenuIcon from '@material-ui/icons/Menu';
 import SearchIcon from '@material-ui/icons/Search';
 import { Switch, Route, Link, BrowserRouter } from "react-router-dom";
+import Button from '@material-ui/core/Button';
 
 const useStyles = makeStyles(theme => ({
     root: {
@@ -82,10 +83,10 @@ export default function Nav() {
                         Tapped!
                     </Typography>
                     <Typography className={classes.title} variant="h6" noWrap>
-                        <a href='#' className={classes.anchor}>Customers</a>
+                        <Button color="inherit">Customers</Button>
                     </Typography>
                     <Typography className={classes.title} variant="h6" noWrap component={Link} to='/keglist'>
-                        <a href='#' className={classes.anchor}>Employees</a>
+                        <Button color="inherit">Employees</Button>
                     </Typography>
                     <div className={classes.search}>
                         <div className={classes.searchIcon}>

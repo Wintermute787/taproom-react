@@ -40,11 +40,14 @@ var heroText = {
     letterSpacing: "15px"
 };
 
+
+
 const useStyles = makeStyles(theme => ({
     button: {
         margin: theme.spacing(1),
         top: "50%",
         left: "45%",
+        background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
     },
     input: {
         display: 'none',
