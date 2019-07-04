@@ -22,6 +22,40 @@ const useStyles = makeStyles({
 function Keg(props) {
     const classes = useStyles();
     return(
+        <Card className={classes.card}>
+            <CardActionArea>
+                <CardMedia
+                    className={classes.media}
+                    image={props.image}
 
+                />
+                <CardContent>
+                    <Typography gutterBottom variant="h5" component="h2">
+                        <h2>{props.name}</h2>
+                    </Typography>
+                    <Typography variant="body2" color="textSecondary" component="p">
+                        <p><em>{props.description}</em></p>
+                    </Typography>
+                </CardContent>
+            </CardActionArea>
+            <CardActions>
+                <Button size="small" color="primary">
+                    <p>{props.alc}</p>
+                </Button>
+                <Button size="small" color="primary">
+                    <p><strong>{props.brand}</strong></p>
+                </Button>
+            </CardActions>
+        </Card>
     )
 }
+
+Keg.propTypes = {
+    name: PropTypes.string,
+    brand: PropTypes.string,
+    alc: PropTypes.string,
+    description: PropTypes.string,
+    image: PropTypes.string
+};
+
+export default Keg;
