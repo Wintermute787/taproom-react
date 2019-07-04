@@ -72,7 +72,7 @@ export default function Nav() {
 
     return (
         <div className={classes.root}>
-            <AppBar position="static">
+            <AppBar position="static" color="secondary">
                 <Toolbar>
 
                     <Typography className={classes.title} variant="h6" noWrap>
@@ -80,6 +80,9 @@ export default function Nav() {
                     </Typography>
                     <Typography className={classes.title} variant="h6" noWrap>
                         <a href='#' className={classes.anchor}>Customers</a>
+                    </Typography>
+                    <Typography className={classes.title} variant="h6" noWrap>
+                        <a href='#' className={classes.anchor}>Employees</a>
                     </Typography>
                     <div className={classes.search}>
                         <div className={classes.searchIcon}>
