@@ -56,7 +56,17 @@ const masterKeg = [
 function KegList() {
     return(
         <div>
-
+            {masterKeg.map((keg, index)=>
+            <Keg className='wrapper'
+                name={keg.name}
+                brand={keg.brand}
+                alc={keg.alc}
+                description={keg.description}
+                image={keg.image}
+                key={index}/>
+                )}
         </div>
     )
 }
+
+export default KegList;

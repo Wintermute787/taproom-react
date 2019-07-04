@@ -27,7 +27,6 @@ function Keg(props) {
                 <CardMedia
                     className={classes.media}
                     image={props.image}
-
                 />
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="h2">
