@@ -68,7 +68,8 @@ const useStyles = makeStyles(theme => ({
     anchor: {
         textDecoration: "none",
         color: "white"
-    }
+    },
+
 
 
 }));
@@ -84,11 +85,11 @@ export default function Nav() {
                     <Typography className={classes.title} variant="h6" noWrap component={Link} to='/'>
                         Tapped!
                     </Typography>
-                    <Typography className={classes.title} variant="h6" noWrap>
-                        <Button color="inherit">Customers</Button>
+                    <Typography className={classes.title} variant="h6" noWrap component={Link} to='/customer'>
+                        <Button color="inherit" classname='button'>Customers</Button>
                     </Typography>
                     <Typography className={classes.title} variant="h6" noWrap component={Link} to='/keglist'>
-                        <Button color="inherit">Employees</Button>
+                        <Button color="inherit" classname='button'>Employees</Button>
                     </Typography>
                     <div className={classes.search}>
                         <div className={classes.searchIcon}>

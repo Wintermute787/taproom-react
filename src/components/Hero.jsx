@@ -6,7 +6,7 @@ import Button from '@material-ui/core/Button';
 
 
 var heroStyle = {
-    height: '100vh',
+    height: '93vh',
     width: '100vw',
 
     backgroundColor: "rgba(0,0,0,0.46)",
