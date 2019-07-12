@@ -2,6 +2,8 @@ import React from 'react'
 import image1 from './assets/image1.jpg'
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
+import Keg from "./Keg";
+
 
 
 
@@ -65,6 +67,8 @@ function Hero() {
             <Button variant="contained" color="secondary" className={classes.button} size={'large'}>
                 Try us out!
             </Button>
+
+
         </div>
     )
 }

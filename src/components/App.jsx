@@ -6,6 +6,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Container from '@material-ui/core/Container';
 import Customer from './Customer'
 import Employee from './Employee'
+import NewKegListForm from "./NewKegListForm";
 
 
 
@@ -32,7 +33,9 @@ class App extends React.Component {
                     <Switch>
                         <Route exact path='/' component={Hero}/>
                         <Container>
-                            <Route path='/employee' component={Employee}/>
+                            <Route path='/employee' render={(props) =><NewKegListForm
+                                kegList={this.state.masterKegList}
+                                onNewKegCreation={this.handleAddNewKegToList}/>}/>
                             <Route path='/customer' component={Customer}/>
                         </Container>
 

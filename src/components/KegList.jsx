@@ -8,6 +8,7 @@ import Boulevard1 from './assets/Boulevard1.jpg';
 import newBelgium1 from './assets/newBelgium1.jpg'
 import Grid from './Grid.css'
 import Container from '@material-ui/core/Container';
+import PropTypes from 'prop-types'
 
 
 const masterKeg = [
@@ -55,21 +56,25 @@ const masterKeg = [
     }
 ];
 
-function KegList() {
+function KegList(props) {
     return(
         <div className='wrapper'>
 
-            {masterKeg.map((keg, index)=>
+            {props.kegList.map( (keg)=>
             <Keg className='wrapper'
                 name={keg.name}
                 brand={keg.brand}
                 alc={keg.alc}
                 description={keg.description}
                 image={keg.image}
-                key={index}/>
+                key={keg.id}/>
                 )}
         </div>
     )
+}
+
+KegList.propTypes = {
+    kegList: PropTypes.array
 }
 
 export default KegList;
