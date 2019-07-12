@@ -8,7 +8,8 @@ export default function Customer(props) {
         <div>
             <CustomerTopContent/>
             <CustomerMidContent/>
-            <KegList/>
+            <KegList
+            kegList={props.kegList}/>
         </div>
     )
 }

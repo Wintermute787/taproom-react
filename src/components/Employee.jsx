@@ -8,7 +8,7 @@ export default function Employee(props) {
 
             <NewKegListForm/>
             <KegList
-            kegList={props.masterKeg}/>
+            kegList={props.kegList}/>
         </div>
     )
 }
