@@ -5,7 +5,7 @@ import KegList from './KegList';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Container from '@material-ui/core/Container';
 import Customer from './Customer'
-import Footer from './Footer'
+import Employee from './Employee'
 
 
 
@@ -32,7 +32,7 @@ class App extends React.Component {
                     <Switch>
                         <Route exact path='/' component={Hero}/>
                         <Container>
-                            <Route path='/keglist' component={KegList}/>
+                            <Route path='/employee' component={Employee}/>
                             <Route path='/customer' component={Customer}/>
                         </Container>
 
