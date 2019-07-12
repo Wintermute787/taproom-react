@@ -9,23 +9,39 @@ import Footer from './Footer'
 
 
 
-function App() {
-  return(
-      <BrowserRouter>
-      <div>
-          <Nav/>
-          <Switch>
-              <Route exact path='/' component={Hero}/>
-              <Container>
-              <Route path='/keglist' component={KegList}/>
-                  <Route path='/customer' component={Customer}/>
-              </Container>
+class App extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            masterKegList: []
+        };
+        this.handleAddNewKegToList = this.handleAddNewKegToList.bind(this);
+    }
 
-          </Switch>
+    handleAddNewKegToList(newKeg) {
+        const newMasterKegList = this.state.masterKegList.slice();
+        newMasterKegList.push(newKeg);
+        this.setState({newMasterKegList: newMasterKegList})
+    }
 
-      </div>
-      </BrowserRouter>
-  )
+    render() {
+        return(
+            <BrowserRouter>
+                <div>
+                    <Nav/>
+                    <Switch>
+                        <Route exact path='/' component={Hero}/>
+                        <Container>
+                            <Route path='/keglist' component={KegList}/>
+                            <Route path='/customer' component={Customer}/>
+                        </Container>
+
+                    </Switch>
+
+                </div>
+            </BrowserRouter>
+        )
+    }
 }
 
 export default App;
