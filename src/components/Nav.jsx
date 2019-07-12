@@ -88,7 +88,7 @@ export default function Nav() {
                     <Typography className={classes.title} variant="h6" noWrap component={Link} to='/customer'>
                         <Button color="inherit" classname='button'>Customers</Button>
                     </Typography>
-                    <Typography className={classes.title} variant="h6" noWrap component={Link} to='/keglist'>
+                    <Typography className={classes.title} variant="h6" noWrap component={Link} to='/employee'>
                         <Button color="inherit" classname='button'>Employees</Button>
                     </Typography>
                     <div className={classes.search}>

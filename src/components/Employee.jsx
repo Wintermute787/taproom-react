@@ -1,9 +1,10 @@
 import React from 'react'
+import KegList from './KegList'
 
 export default function Employee() {
     return(
         <div>
-            <h2>Employee Route</h2>
+            <KegList/>
         </div>
     )
 }
