@@ -35,16 +35,9 @@ export default function NewKegListForm(props) {
     let _description = null;
     let _image = null;
 
-    function HandleNewKegFormSubmit(event) {
+    function HandleNewKegFormSubmit(event){
         event.preventDefault();
-        props.onNewKegCreation({
-            name: _name.value,
-            brand: _brand.value,
-            alc: _alc.value,
-            description: _description.value,
-            image: _image.value,
-            id: v4()
-        })
+        props.onNewKegCreation({name: _name.value, brand: _brand.value, alc: _alc.value, description: _description.value, image: _image.value, id: v4()});
             _name.value = '';
             _brand.value = '';
             _alc.value = '';

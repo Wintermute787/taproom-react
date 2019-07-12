@@ -33,10 +33,7 @@ class App extends React.Component {
                     <Switch>
                         <Route exact path='/' component={Hero}/>
                         <Container>
-                            <Route path='/employee' render={() =><NewKegListForm
-                                onNewKegCreation={this.handleAddNewKegToList}/>}
-                                kegList={this.state.masterKegList}
-                                />
+                            <Route path='/employee' render={(props) =><Employee onNewKegCreation={this.handleAddNewKegToList} kegList={this.state.masterKegList}/>} />
                             <Route path='/customer' render={(props) =><Customer
                                 kegList={this.state.masterKegList} />}/>
                         </Container>

@@ -6,7 +6,8 @@ export default function Employee(props) {
     return(
         <div>
 
-            <NewKegListForm/>
+            <NewKegListForm
+            onNewKegCreation={props.onNewKegCreation}/>
             <KegList
             kegList={props.kegList}/>
         </div>
