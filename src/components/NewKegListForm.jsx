@@ -6,6 +6,7 @@ import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
+import styled from 'styled-components';
 
 
 
@@ -105,7 +106,7 @@ export default function NewKegListForm(props) {
                             margin="normal"
                         />
                     </Grid>
-                    <Button type="submit" className={classes.button} variant="contained" color="primary">Submit</Button>
+                    <Button type="submit" size='small' variant="contained" color="secondary">Submit</Button>
                 </form>
             </Grid>
         </div>

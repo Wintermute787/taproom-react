@@ -2,9 +2,8 @@ import React from 'react'
 import image1 from './assets/image1.jpg'
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
-import Keg from "./Keg";
-
-
+import {  Link } from "react-router-dom";
+import Typography from "@material-ui/core/Typography";
 
 
 var heroStyle = {
@@ -64,7 +63,7 @@ function Hero() {
         <div style={heroStyle}>
             <div style={heroBox}></div>
             <h1 style={heroText}>Experience our winter cold brew</h1>
-            <Button variant="contained" color="secondary" className={classes.button} size={'large'}>
+            <Button variant="contained" color="secondary" className={classes.button} size={'large'} component={Link} to='/customer'>
                 Try us out!
             </Button>
 
