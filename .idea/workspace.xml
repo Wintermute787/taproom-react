@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5878ad6b-fe17-486e-8eda-48f8b888ae47" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/StaticKegList.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../doctorLookup/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../doctorLookup/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../doctorLookup/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../doctorLookup/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../doctorLookup/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../doctorLookup/.idea/workspace.xml" afterDir="false" />
@@ -37,10 +36,7 @@
       <change beforePath="$PROJECT_DIR$/../portfolio/src/index.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio/src/logo.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Customer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Customer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Employee.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Employee.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/KegList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/KegList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NewKegListForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewKegListForm.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../romanNumerals" beforeDir="false" afterPath="$PROJECT_DIR$/../romanNumerals" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../trackSelector" beforeDir="false" afterPath="$PROJECT_DIR$/../trackSelector" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../travelSite" beforeDir="false" afterPath="$PROJECT_DIR$/../travelSite" afterDir="false" />
@@ -110,11 +106,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/NewKegListForm.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1685">
-              <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+            <state relative-caret-position="210">
+              <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -158,11 +154,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/StaticKegList.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+            <state relative-caret-position="-280">
+              <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -190,12 +186,12 @@
         <option value="$PROJECT_DIR$/src/components/Nav.jsx" />
         <option value="$PROJECT_DIR$/src/components/assets/NewKeg.jsx" />
         <option value="$PROJECT_DIR$/src/components/Hero.jsx" />
-        <option value="$PROJECT_DIR$/src/components/NewKegListForm.jsx" />
         <option value="$PROJECT_DIR$/src/components/App.jsx" />
         <option value="$PROJECT_DIR$/src/components/KegList.jsx" />
         <option value="$PROJECT_DIR$/src/components/Customer.jsx" />
         <option value="$PROJECT_DIR$/src/components/Employee.jsx" />
         <option value="$PROJECT_DIR$/src/components/StaticKegList.jsx" />
+        <option value="$PROJECT_DIR$/src/components/NewKegListForm.jsx" />
       </list>
     </option>
   </component>
@@ -298,12 +294,12 @@
       <updated>1562253229097</updated>
       <workItem from="1562253231265" duration="23747000" />
       <workItem from="1562903820696" duration="161000" />
-      <workItem from="1562944604444" duration="11623000" />
+      <workItem from="1562944604444" duration="13192000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35531000" />
+    <option name="totallyTimeSpent" value="37100000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -440,16 +436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/NewKegListForm.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1685">
-          <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Nav.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-61">
@@ -499,8 +485,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/StaticKegList.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+        <state relative-caret-position="-280">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NewKegListForm.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>

@@ -4,12 +4,21 @@ import { v4 } from 'uuid'
 import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
+import Grid from '@material-ui/core/Grid';
+import Container from '@material-ui/core/Container';
+
 
 
 const useStyles = makeStyles(theme => ({
+    root: {
+        flexGrow: 1,
+    },
     container: {
         display: 'flex',
         flexWrap: 'wrap',
+    },
+    margin: {
+        margin: theme.spacing(1),
     },
     textField: {
         marginLeft: theme.spacing(1),
@@ -22,6 +31,7 @@ const useStyles = makeStyles(theme => ({
     menu: {
         width: 200,
     },
+
 }));
 
 
@@ -45,46 +55,61 @@ export default function NewKegListForm(props) {
             _image.value = '';
     }
     return(
-        <div>
-            <form onSubmit={HandleNewKegFormSubmit} className={classes.container} noValidate autoComplete="off">
-                <TextField
-                    id="name"
-                    label="Name"
-                    className={classes.textField}
-                    inputProps={{ref: input => _name = input}}
-                    margin="normal"
-                />
-                <TextField
-                    id="brand"
-                    label="Brand"
-                    className={classes.textField}
-                    inputProps={{ref: input => _brand = input}}
-                    margin="normal"
-                />
-                <TextField
-                    id="alc"
-                    label="Alc%"
-                    className={classes.textField}
-                    inputProps={{ref: input => _alc = input}}
-                    margin="normal"
-                />
-                <TextField
-                    id="description"
-                    label="Description"
-                    className={classes.textField}
-                    inputProps={{ref: input => _description = input}}
-                    margin="normal"
-                />
-                <TextField
-                    id="image"
-                    label="Image"
-                    className={classes.textField}
-                    inputProps={{ref: input => _image = input}}
-                    margin="normal"
-                />
-                <Button type="submit" className={classes.button} variant="contained" color="primary">Submit</Button>
-            </form>
+        <Container maxWidth='sm'>
+        <div className={classes.root}>
+            <Grid container spacing={3}>
+                <form onSubmit={HandleNewKegFormSubmit} className={classes.container} noValidate autoComplete="off">
+                    <Grid item xs={3}>
+                        <TextField
+                            id="name"
+                            label="Name"
+                            className={classes.textField}
+                            inputProps={{ref: input => _name = input}}
+                            margin="normal"
+                        />
+                    </Grid>
+                    <Grid xs={3}>
+                        <TextField
+                            id="brand"
+                            label="Brand"
+                            className={classes.textField}
+                            inputProps={{ref: input => _brand = input}}
+                            margin="normal"
+                        />
+                    </Grid>
+                    <Grid xs={3}>
+                        <TextField
+                            id="alc"
+                            label="Alc%"
+                            className={classes.textField}
+                            inputProps={{ref: input => _alc = input}}
+                            margin="normal"
+                        />
+                    </Grid>
+                    <Grid xs={6}>
+                        <TextField
+                            id="description"
+                            label="Description"
+                            multiline
+                            className={classes.textField}
+                            inputProps={{ref: input => _description = input}}
+                            margin="normal"
+                        />
+                    </Grid>
+                    <Grid xs={6}>
+                        <TextField
+                            id="image"
+                            label="Image"
+                            className={classes.textField}
+                            inputProps={{ref: input => _image = input}}
+                            margin="normal"
+                        />
+                    </Grid>
+                    <Button type="submit" className={classes.button} variant="contained" color="primary">Submit</Button>
+                </form>
+            </Grid>
         </div>
+    </Container>
     )
 }
 
