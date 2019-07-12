@@ -1,11 +1,8 @@
 import React from 'react'
 import Grid from './Grid.css'
-import beer1 from './assets/beer1.jpg'
-import image1 from "./assets/image1.jpg";
 
-var sideNav = {
 
-}
+
 
 export default function CustomerTopContent() {
     return(

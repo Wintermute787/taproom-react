@@ -5,7 +5,7 @@ import KegList from './KegList'
 import StaticKegList from './StaticKegList'
 import Spacer from './Spacer'
 import styled from 'styled-components';
-import ReactPlayer from 'react-player'
+
 
 
 const Wrapper = styled.div`
